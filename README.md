@@ -75,21 +75,38 @@ class Attributes(srTimm):
             }
         }
 
-        return langs, specialities, ide, pc```
+        return langs, specialities, ide, pc``````
 
 ---
 
 <h2 align="center">🛠️ Habilidades (Skill Icons)</h2>
 
-<div align="center"> <h3>Lenguajes Principales</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,javascript,go,rust,c,cpp" alt="Skill icons para Python, JavaScript, Go, Rust, C, C++" />
+<div align="center">
+  <h3>Lenguajes Principales</h3>
+  <img src="https://skillicons.dev/icons?i=python,javascript,go,rust,c,cpp" alt="Skill icons para Python, JavaScript, Go, Rust, C, C++" />
 
-<h3>Frontend & Backend</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dhtml,css,react,nodejs,django,flask,nextjs" alt="Skill icons para HTML, CSS, React, NodeJS, Django, Flask, Next.js" />
+  <h3>Frontend & Backend</h3>
+  <img src="https://skillicons.dev/icons?i=html,css,react,nodejs,django,flask,nextjs" alt="Skill icons para HTML, CSS, React, NodeJS, Django, Flask, Next.js" />
 
-<h3>Bases de Datos & Cloud</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpostgres,mysql,sqlite,mongodb,docker,aws,azure" alt="Skill icons para PostgreSQL, MySQL, SQLite, MongoDB, Docker, AWS, Azure" />
+  <h3>Bases de Datos & Cloud</h3>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,docker,aws,azure" alt="Skill icons para PostgreSQL, MySQL, SQLite, MongoDB, Docker, AWS, Azure" />
 
-<h3>Herramientas & Otros</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dvscode,vim,git,github,linux,bash,kali" alt="Skill icons para VS Code, Vim, Git, GitHub, Linux, Bash, Kali Linux" /> </div>
+  <h3>Herramientas & Otros</h3>
+  <img src="https://skillicons.dev/icons?i=vscode,vim,git,github,linux,bash,kali" alt="Skill icons para VS Code, Vim, Git, GitHub, Linux, Bash, Kali Linux" />
+</div>
 
 ---
+
+<h2 align="center">🌐 Mis Métricas</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=srTimm&show_icons=true&theme=onedark&hide_border=true&count_private=true" alt="Estadísticas de GitHub de srTimm" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srTimm&layout=compact&langs_count=8&theme=onedark&hide_border=true" alt="Lenguajes Principales de srTimm" />
+  
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=srTimm&color=green" alt="Contador de Visitas" />
+</div>
 
 <h2 align="center">🌐 Mis Métricas</h2>
 
