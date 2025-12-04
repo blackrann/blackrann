@@ -8,65 +8,91 @@
   !BB. . :?P5#5 .GBP~:YBGBGP?~75!. .: .5#G5?:.
   </pre>
   
-  <h1 align="center">👋 ¡Hola! Soy srTimm</h1>
-
-  ### 🚀 Creador de Contenido & Desarrollador en formación
-
+  <h1 align="center">srTimm</h1>
+  
   <p align="center">
-    Actualmente trabajando en proyectos personales de automatización y mejorando mis habilidades en la web.
-    <br/>
-    Me apasiona la tecnología, la seguridad y el código limpio.
+    Desarrollador Full-Stack, con pasión por la seguridad y la eficiencia.
   </p>
 </div>
 
 ---
 
-<h2 align="center">📊 Mis Estadísticas de GitHub</h2>
+## 💻 class Attributes(srTimm):
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=srTimm&show_icons=true&theme=onedark&hide_border=true&count_private=true" alt="Estadísticas de GitHub de srTimm" />
-  
-  <br/>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=srTimm&layout=compact&langs_count=8&theme=onedark&hide_border=true" alt="Lenguajes Principales de srTimm" />
-</div>
+```python
+from typing import Tuple, List, Dict
+
+class srTimm:
+    """
+    Clase base para el desarrollador srTimm.
+    """
+    pass
+
+class Attributes(srTimm):
+    """
+    Contiene atributos de vida, contacto y habilidades de codificación.
+    """
+    @property
+    def contact(self) -> Tuple[str, str, str]:
+        # ¡IMPORTANTE! Reemplaza estos valores con tus propios enlaces
+        telegram = "t.me/TU_TELEGRAM"
+        channel  = "t.me/TU_CANAL"
+        email    = "sr.timm@ejemplo.com"
+        
+        return telegram, channel, email
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        # Edita los lenguajes que hablas y tu edad
+        langs = ['Spanish', 'English', 'French (basic)']
+        age   = 20 # Ejemplo: actualiza tu edad
+        
+        return langs, age
+    
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+        langs = {
+            'expert'      : ['python', 'javascript'],
+            'intermediate': ['go', 'bash'],
+            'learning'    : ['c', 'c++', 'rust', 'typescript']
+        }
+        specialities  = ['web/app reverse engineering', 'fullstack development', 'data science']
+        ide           = ['vscode', 'pycharm', 'vim']
+        pc            = {
+            'MacOS': {
+                'macbook air m2': {
+                    'processor': 'm2 | 8 cores',
+                    'ram'      : '8gb',
+                    'gpu'      : 'm2 | 8 cores'
+                }
+            },
+            'Windows': {
+                'custom': {
+                    'processor': 'AMD ryzen 7 5800X | 8 cores',
+                    'ram'      : '16gb',
+                    'gpu'      : 'nvidia 3070 | 5888 CUDA cores'
+                }
+            }
+        }
+
+        return langs, specialities, ide, pc```
 
 ---
 
-<h2 align="center">🛠️ Tecnologías Favoritas</h2>
+<h2 align="center">🛠️ Habilidades (Skill Icons)</h2>
 
-<div align="center">
-  <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" />
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge" />
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
-    <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCode Badge" />
-  </p>
-</div>
+<div align="center"> <h3>Lenguajes Principales</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,javascript,go,rust,c,cpp" alt="Skill icons para Python, JavaScript, Go, Rust, C, C++" />
+
+<h3>Frontend & Backend</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dhtml,css,react,nodejs,django,flask,nextjs" alt="Skill icons para HTML, CSS, React, NodeJS, Django, Flask, Next.js" />
+
+<h3>Bases de Datos & Cloud</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpostgres,mysql,sqlite,mongodb,docker,aws,azure" alt="Skill icons para PostgreSQL, MySQL, SQLite, MongoDB, Docker, AWS, Azure" />
+
+<h3>Herramientas & Otros</h3> <img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dvscode,vim,git,github,linux,bash,kali" alt="Skill icons para VS Code, Vim, Git, GitHub, Linux, Bash, Kali Linux" /> </div>
 
 ---
 
-<h2 align="center">🌐 Conéctate Conmigo</h2>
+<h2 align="center">🌐 Mis Métricas</h2>
 
-<div align="center">
-  <a href="mailto:TU_CORREO@ejemplo.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
-  </a>
-  <a href="https://twitter.com/TU_TWITTER" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge" />
-  </a>
-  <a href="https://discordapp.com/users/TU_DISCORD_ID" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/TU_LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
-  </a>
-</div>
+<div align="center"> <img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DsrTimm%26show_icons%3Dtrue%26theme%3Donedark%26hide_border%3Dtrue%26count_private%3Dtrue" alt="Estadísticas de GitHub de srTimm" />
 
-<br/>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=srTimm&color=green" alt="Contador de Visitas" />
-</div>
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DsrTimm%26layout%3Dcompact%26langs_count%3D8%26theme%3Donedark%26hide_border%3Dtrue" alt="Lenguajes Principales de srTimm" />
