@@ -36,7 +36,7 @@ class Attributes(blackrann):
     def contact(self) -> Tuple[str, str, str]:
         telegram = "@diegomunozzz"
         channel  = "https://t.me/swarveshop"
-        email    = "yourmail@example.com"
+        email    = "support@nexabro.site"
         
         return telegram, channel, email
 
