@@ -11,7 +11,7 @@
   <h1 align="center">blackrann</h1>
   
   <p align="center">
-    Desarrollador Full-Stack, con pasión por la seguridad y la eficiencia.
+    Full-Stack Developer, passionate about security and efficiency.
   </p>
 </div>
 
@@ -24,19 +24,19 @@ from typing import Tuple, List, Dict
 
 class blackrann:
     """
-    Clase base para el desarrollador blackrann.
+    Base class for developer blackrann.
     """
     pass
 
 class Attributes(blackrann):
     """
-    Contiene atributos de vida, contacto y habilidades de codificación.
+    Contains life attributes, contact information, and coding skills.
     """
     @property
     def contact(self) -> Tuple[str, str, str]:
-        telegram = "t.me/TU_TELEGRAM"
-        channel  = "t.me/TU_CANAL"
-        email    = "tucorreo@ejemplo.com"
+        telegram = "@diegomunozzz"
+        channel  = "https://t.me/swarveshop"
+        email    = "yourmail@example.com"
         
         return telegram, channel, email
 
@@ -73,7 +73,5 @@ class Attributes(blackrann):
         return langs, specialities, ide, pc
 ```
 ---
-<h2 align="center">🛠️ Habilidades (Skill Icons)</h2> <div align="center"> <h3>Lenguajes Principales</h3> <img src="https://skillicons.dev/icons?i=python,javascript,go,rust,c,cpp" /> <h3>Frontend & Backend</h3> <img src="https://skillicons.dev/icons?i=html,css,react,nodejs,django,flask,nextjs" /> <h3>Bases de Datos & Cloud</h3> <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,docker,aws,azure" /> <h3>Herramientas & Otros</h3> <img src="https://skillicons.dev/icons?i=vscode,vim,git,github,linux,bash,kali" /> </div>
 
----
-<h2 align="center">📊 Mis Métricas</h2> <div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=blackrann&show_icons=true&theme=onedark&hide_border=true&count_private=true" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blackrann&layout=compact&langs_count=8&theme=onedark&hide_border=true" /> <br/> <img src="https://komarev.com/ghpvc/?username=blackrann&color=green" /> </div>
+<h2 align="center">🛠️ Skills (Skill Icons)</h2> <div align="center"> <h3>Main Languages</h3> <img src="https://skillicons.dev/icons?i=python,javascript,go,rust,c,cpp" /> <h3>Frontend & Backend</h3> <img src="https://skillicons.dev/icons?i=html,css,react,nodejs,django,flask,nextjs" /> <h3>Databases & Cloud</h3> <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,docker,aws,azure" /> <h3>Tools & Others</h3> <img src="https://skillicons.dev/icons?i=vscode,vim,git,github,linux,bash,kali" /> </div>
